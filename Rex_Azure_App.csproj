@@ -4,6 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/271eb4ec-596e-429f-aab7-e42efd2580d7/resourceGroups/az-group-rg/providers/microsoft.insights/components/Rex-Azure-App</ApplicationInsightsResourceId>
+    <UserSecretsId>10a6b38c-dd99-46ad-a922-1be550b7989c</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
