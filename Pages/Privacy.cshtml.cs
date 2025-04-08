@@ -14,7 +14,7 @@ namespace Rex_Azure_App.Pages
 
         public void OnGet()
         {
-            throw new Exception("Testing Rex Insights");
+            
         }
     }
 
